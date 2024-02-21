@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 340vh;
+  margin: 0;
+  direction: rtl;
+}
+
+.container {
+  text-align: center;
+  direction: ltr;
+}
+/* CSS to position image above title */
+#image-container {
+  text-align: center;
+  direction: ltr;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+#image-container img {
+  width: 500px; /* Adjust image size as needed */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+h1 {
+  text-align: center;
+.recipe-card {
+  margin-bottom: 20px;
+  width: 400px;
+  object-fit: center;
+}
+
+.recipe-card img {
+  width: 400px;
+  height: 400px;
+  object-fit: center;
+}
+
+#searchInput {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+}
+/* CSS styles for the "See More" dialog */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.close {
+  color: #aaa;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
